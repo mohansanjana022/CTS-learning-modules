@@ -4,18 +4,11 @@ import java.lang.reflect.Parameter;
 public class ReflectionDemo {
     public static void main(String[] args) {
         try {
-            // 1. Load the class dynamically
             Class<?> clazz = Class.forName("Sample");
-
-            // 2. Create an instance of the class
             Object obj = clazz.getDeclaredConstructor().newInstance();
-
-            // 3. Get all declared methods
             Method[] methods = clazz.getDeclaredMethods();
-
             for (Method method : methods) {
                 System.out.println("Method Name: " + method.getName());
-
                 Parameter[] params = method.getParameters();
                 System.out.print("Parameters: ");
                 if (params.length == 0) {
