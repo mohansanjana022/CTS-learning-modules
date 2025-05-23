@@ -67,4 +67,24 @@ public class ChatClient {
 }
 
 
+C:\Users\cse&student\Documents>javac ChatServer.java ChatClient.java
+
+C:\Users\cse&student\Documents>java ChatClient
+Connected to server.
+Client: rrr
+Server: r hello
+Client: hi
+Server: hi goodmorning
+Client: hello!
+
+
+    C:\Users\cse&student\Documents>javac ChatServer.java ChatClient.java
+
+C:\Users\cse&student\Documents>java ChatClient
+Connected to server.
+Client: rrr
+Server: r hello
+Client: hi
+Server: hi goodmorning
+Client: hello!
 
