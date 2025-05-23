@@ -66,7 +66,7 @@ public class ChatClient {
     }
 }
 
-
+*/
 C:\Users\cse&student\Documents>javac ChatServer.java ChatClient.java
 
 C:\Users\cse&student\Documents>java ChatClient
@@ -87,4 +87,5 @@ Server: r hello
 Client: hi
 Server: hi goodmorning
 Client: hello!
+*/
 
